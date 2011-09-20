@@ -1,9 +1,7 @@
-<%= image_tag "damn/alert.png" %>
-
 <h1>Failures</h1>
 <ul>
   <% @failures.each do |f| %>
-    <li><%= f.message %></li>
+    <li>#<%= f.id %>: <%= f.message %></li>
   <% end  %>
 </ul>
 

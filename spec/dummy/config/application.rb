@@ -9,9 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require
-require "damn"
-
-require "jquery-rails" # this should be auto-included with the Bundler.require :default, Rails.env, but it's not happening
+require "epic_fail"
 
 module Dummy
   class Application < Rails::Application

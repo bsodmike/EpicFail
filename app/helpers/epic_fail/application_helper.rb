@@ -1,4 +1,4 @@
-module Damn
+module EpicFail
   module ApplicationHelper
   end
 end

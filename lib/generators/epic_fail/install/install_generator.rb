@@ -4,7 +4,7 @@ require 'rails/generators/migration'
 
 # generator namespaced as per 
 # http://davidsulc.com/blog/2011/05/22/adding-a-namespaced-rails-generator-to-a-standalone-ruby-gem/
-module Damn
+module EpicFail
   module Generators
     class InstallGenerator < Rails::Generators::Base
       include Rails::Generators::Migration
@@ -24,7 +24,7 @@ module Damn
       end
 
       def create_migration_file
-        migration_template 'migration.rb', 'db/migrate/create_damn_failures.rb'
+        migration_template 'migration.rb', 'db/migrate/create_epic_fail_failures.rb'
       end  
     end
   end

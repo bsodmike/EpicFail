@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20110920230244) do
 
-  create_table "damn_failures", :force => true do |t|
+  create_table "epic_fail_failures", :force => true do |t|
     t.text     "message"
     t.datetime "created_at"
     t.datetime "updated_at"

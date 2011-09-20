@@ -30,5 +30,5 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true
   
   config.include Capybara::DSL, :example_group => { :file_path => /\bspec\/requests\// }
-  config.include Damn::Engine.routes.url_helpers
+  config.include EpicFail::Engine.routes.url_helpers
 end

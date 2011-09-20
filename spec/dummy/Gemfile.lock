@@ -1,5 +1,5 @@
 PATH
-  remote: .
+  remote: ../../../epic_fail
   specs:
     epic_fail (0.0.1)
       jquery-rails
@@ -161,7 +161,9 @@ DEPENDENCIES
   epic_fail!
   factory_girl_rails
   guard-rspec
+  jquery-rails
   pry
+  rails (~> 3.1.0)
   rb-fsevent
   rspec-rails
   sqlite3
