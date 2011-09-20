@@ -1,5 +1,5 @@
-Dummy::Application.routes.draw do
-  #mount OilChange::Engine => "/"
+Rails.application.routes.draw do
+  mount OilChange::Engine => "/oil_change"
   engine_routing
 
   # The priority is based upon order of creation:
