@@ -1,2 +1,3 @@
-Rails.application.routes.draw do
+OilChange::Engine.routes.draw do
+  resources :dashboard
 end
