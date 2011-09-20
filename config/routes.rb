@@ -1,3 +1,3 @@
 OilChange::Engine.routes.draw do
-  resources :dashboard
+  # routes defined in /lib/oil_change/engine.rb as per trick by workmad3
 end

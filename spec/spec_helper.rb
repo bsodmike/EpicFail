@@ -29,6 +29,6 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = true
   
-  config.include Capybara, :example_group => { :file_path => /\bspec\/integration\// }
+  config.include Capybara::DSL, :example_group => { :file_path => /\bspec\/requests\// }
   config.include OilChange::Engine.routes.url_helpers
 end
