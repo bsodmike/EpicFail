@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    oil_change (0.0.1)
+    damn (0.0.1)
       jquery-rails
       rails (~> 3.1.0)
 
@@ -158,9 +158,9 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  damn!
   factory_girl_rails
   guard-rspec
-  oil_change!
   pry
   rb-fsevent
   rspec-rails

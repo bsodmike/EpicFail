@@ -14,7 +14,7 @@ end
 
 RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title    = 'OilChange'
+  rdoc.title    = 'Damn'
   rdoc.options << '--line-numbers'
   rdoc.rdoc_files.include('README.rdoc')
   rdoc.rdoc_files.include('lib/**/*.rb')
@@ -36,4 +36,3 @@ end
 
 desc 'Default: Run all specs.'
 task :default => :spec
-

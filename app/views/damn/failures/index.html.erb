@@ -1,0 +1,10 @@
+<%= image_tag "damn/alert.png" %>
+
+<h1>Failures</h1>
+<ul>
+  <% @failures.each do |f| %>
+    <li><%= f.message %></li>
+  <% end  %>
+</ul>
+
+<p><%= link_to "Simulate Failure", main_app.simulate_failure_path %></p>

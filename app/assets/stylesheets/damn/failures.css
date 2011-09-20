@@ -1,0 +1,34 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+html, body {
+  background-color: #DDD;
+  font-family: Verdana;
+}
+
+body {
+  padding: 20px 200px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #FFF;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
