@@ -14,7 +14,9 @@
 ActiveRecord::Schema.define(:version => 20110920230244) do
 
   create_table "epic_fail_failures", :force => true do |t|
+    t.text     "exception"
     t.text     "message"
+    t.text     "backtrace"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

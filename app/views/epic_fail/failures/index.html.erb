@@ -1,7 +1,10 @@
 <h1>Failures</h1>
 <ul>
   <% @failures.each do |f| %>
-    <li>#<%= f.id %>: <%= f.message %></li>
+    <li>
+      <h3>(#<%= f.id %>) <%= f.exception %>: <%= f.message %></h3>
+      <p><%= f.created_at.strftime('%H:%M:%S %Z @ %m/%d/%Y') %></p>
+    </li>
   <% end  %>
 </ul>
 
