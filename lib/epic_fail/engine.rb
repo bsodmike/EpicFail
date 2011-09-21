@@ -16,5 +16,6 @@ end
 module EpicFail
   class Engine < Rails::Engine
     isolate_namespace EpicFail
+    engine_name :epic_fail
   end
 end
