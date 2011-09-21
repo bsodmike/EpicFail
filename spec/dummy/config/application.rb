@@ -2,24 +2,24 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/application'
 require 'rails/engine'
 
-module Rails
-  class Application < Engine
-    def initializers
-      init = Bootstrap.initializers_for(self) #BOOTSTRAP
-      init += super #RAILTIES 
-      init += Finisher.initializers_for(self) #FINISHER
-      print_initializers(init)
-      init
-     end
-  
-    def print_initializers(initializers)
-      initializers.each do |i|
-        p i.name
-      end
-      p "----------------------------"   
-    end
-  end
-end
+# module Rails
+#   class Application < Engine
+#     def initializers
+#       init = Bootstrap.initializers_for(self) #BOOTSTRAP
+#       init += super #RAILTIES 
+#       init += Finisher.initializers_for(self) #FINISHER
+#       print_initializers(init)
+#       init
+#      end
+#   
+#     def print_initializers(initializers)
+#       initializers.each do |i|
+#         p i.name
+#       end
+#       p "----------------------------"   
+#     end
+#   end
+# end
 
 
 # Pick the frameworks you want:
